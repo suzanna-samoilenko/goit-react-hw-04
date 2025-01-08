@@ -1,0 +1,8 @@
+.wrapper {
+  font-family: "Arial", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  min-width: 1280px;
+  margin: 0 auto;
+}

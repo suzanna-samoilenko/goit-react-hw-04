@@ -1,0 +1,52 @@
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b4cde6;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s;
+  margin-right: 20px;
+}
+
+.input:focus {
+  border-color: #007bff;
+}
+
+.btnForm {
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 36px;
+  transition: background-color 0.3s;
+}
+
+.btnForm:hover {
+  background-color: #0056b3;
+}
+
+.btnForm:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
