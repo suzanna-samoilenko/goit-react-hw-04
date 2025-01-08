@@ -1,7 +1,11 @@
+import styles from "./ErrorMessage.module.css";
+
 const ErrorMessage = () => {
   return (
     <div>
-      <p>Something went wrong. Please try again later.</p>
+      <p className={styles.error}>
+        Whoops, something went wrong! Please try reloading this page!
+      </p>
     </div>
   );
 };
