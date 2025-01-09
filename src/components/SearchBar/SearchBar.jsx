@@ -1,6 +1,6 @@
 import { useState } from "react";
 import toast from "react-hot-toast";
-import styles from "./SearchForm.module.css";
+import styles from "./SearchBar.module.css";
 
 const SearchForm = ({ onSubmit }) => {
   const [query, setQuery] = useState("");

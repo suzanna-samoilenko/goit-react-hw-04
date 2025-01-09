@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { fetchArticles } from "/src/services/api.js";
-import SearchForm from "./SearchForm/SearchForm";
+import SearchBar from "./SearchBar/SearchBar";
 import toast, { Toaster } from "react-hot-toast";
 import Loader from "./Loader/Loader";
 import ErrorMessage from "./ErrorMessage/ErrorMessage";
@@ -65,7 +65,7 @@ const App = () => {
   return (
     <div className={styles.wrapper}>
       <Toaster position="top-right" reverseOrder={false} />
-      <SearchForm onSubmit={handleSearch} />
+      <SearchBar onSubmit={handleSearch} />
       {isLoading && <Loader />}
       {error && <ErrorMessage />}
       {articles.length > 0 && (
